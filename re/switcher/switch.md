@@ -208,6 +208,8 @@ Ta thấy nó rất dài, dài vl. Nhưng mà sau khi để ý kĩ, ta thấy n�
 
 Ở đây, trong bảng mã ascii, ta thấy rằng nó khi kết hợp vào sẽ được 1 string như sau:
 
+![image](https://github.com/anhshidou/AngstromCTF2024/assets/120787381/f33dd17a-df99-4c98-86d0-168d9091106d)
+
 **jumping_my_way_to_the_flag_one_by_one**
 
 Vậy, thêm vào password dòng kia và ta sẽ được:
