@@ -41,9 +41,11 @@ Ta sử dụng IDA để disassemble file. Sau khi xem pseudocode của bài, ta
 
 Khi mà stringcmp so sánh với secretcode mà đúng thì nó sẽ nhả flag, còn nếu không thì sẽ là dòng dưới. Vì vậy, ta xem hàm secretcode là gì.
 
+```
+
 ![image](https://github.com/anhshidou/AngstromCTF2024/assets/120787381/50db3b1b-ce6b-4f2f-9828-99e9031b0cf8)
 
-```
+
 
 Lúc này, ta biết được rằng đoạn string này đang được xor từng từ với 1. Vì vậy nên ta cần phải đảo lại cái đoạn xor này bằng đoạn code nhỏ.
 
